@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1300a4;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-caja {
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: 5vw 25vw 5vw;
+}
+
+
+/* .text-description-container {   /* Es la caja de la derecha la que contiene todo la descripcion y lista
+    border: 3px solid #00ff26;
+
+} */
+
+.c-span {
+    grid-column: 2 span;
+}
+
+/*================== TEXTO =================*/
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.text-description {
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.1rem;
+
+}
+
+.text-photo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #1300a4;
+    background-color: #cecece39;
+}
+
+.text-description-container{
+    background-color: #cecece30;
+}
+.name-title {
+    position: absolute;
+    top: -90px;
+    left: 100px;
+    text-transform: capitalize;
+}
+
+.description {
+    margin: 30px 0;
+}
+
+
+.list-text-description {
+    cursor: pointer;
+    
+}
+
+.item1 {
+    background-image: url(img/icons8-aprendizaje-50-\ white.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 30px;
+}
+
+.item1:hover {
+    background-image: url(img/icons8-aprendizaje-50.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 30px;
+
+}
+
+.item2 {
+    background-image: url(img/icons8-emparejar-rompecabezas-50.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin: 30px 0;
+    background-size: 30px;
+}
+
+.item2:hover {
+    background-image: url(img/icons8-emparejar-rompecabezas-50\ black.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin: 30px 0;
+    background-size: 30px;
+}
+
+.item3 {
+    background-image: url(img/icons8-error-50.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 30px;
+    background-size: 30px;
+}
+
+.item3:hover {
+    background-image: url(img/icons8-error-50\ black.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 30px;
+    background-size: 30px;
+}
+/*================== IMAGENES ===================*/
+
+.logo {
+    display: flex;
+    width: 5vw;
+    height: 5vw;
+
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100%;
+}
+
+.figure-image {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
