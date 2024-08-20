@@ -1,0 +1,78 @@
+@media screen and (max-width:1440px)  {
+    
+.grid-caja {
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: 7vw 30vw 7vw;
+}
+
+
+/*================== TEXTO =================*/
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.text-description {
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 0.9rem;
+
+}
+
+.text-photo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #1300a4;
+    background-color: #cecece39;
+}
+
+.text-description-container{
+    background-color: #cecece30;
+}
+.name-title {
+    position: absolute;
+    top: -70px;
+    left: 80px;
+    text-transform: capitalize;
+}
+
+.description {
+    margin: 30px 0;
+}
+
+/*================== IMAGENES ===================*/
+
+.logo {
+    display: flex;
+    width: 5vw;
+    height: 5vw;
+
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100%;
+}
+
+.figure-image {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+}
