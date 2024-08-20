@@ -1,0 +1,55 @@
+.box-container-2{
+    width: 100%;
+    justify-content: center;
+    background-color: #1e486f;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 10vw 20vw 20vw;
+    padding: 20px;
+
+}
+
+.c-span{
+    grid-column: 2 span;
+}
+
+.title-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.card-container-2{
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.title-card1{
+    margin: 23px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+.text-container-2-card1{
+    margin: 20px;
+    line-height: 25px;
+}
+
+/*================= IMAGENES ================*/
+
+.photo-container-2{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    height: 20%;
+}
+
+.img-figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
