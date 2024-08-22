@@ -1,0 +1,94 @@
+
+/*================= PHONE ================*/
+
+@media screen and (max-width:425px) {
+
+    .nav-container{
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        background-color: #1e486f;
+    }
+    
+    .nav-link{
+        padding: 5px;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    
+
+/*================= CAJA 1 ==================*/
+.box-container-1{
+    grid-template-columns: 50vw 50vw;
+}
+
+.text-container-1{
+    padding: 15px;
+}
+
+.title-text-container-1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.list-text-container-1{
+    margin-top: 30px;
+}
+
+.item-list{
+    line-height: 3.5vw;
+    font-size: 0.91rem;
+}
+
+.button-1{
+    margin-top: 30px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #1e486f;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.button-1:hover{
+    background-color: #ffffff;
+    color: #1e486f;
+}
+
+
+/*================= CAJA 2 ==================*/
+
+.box-container-2{
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 10vw 63vw 63vw;
+    padding: 10px;
+
+}
+
+.title-container-2{
+    font-size: 1.5rem;
+}
+
+.card-container-2{
+    margin: 5px;
+}
+
+.title-card1{
+    margin: 7px 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-size: 1rem;
+}
+.text-card1{
+    line-height: 20px;
+    font-size: 0.9rem;
+}
+/*================= IMAGENES ================*/
+
+.photo-container-2{
+    margin: 10px;
+    max-width: 25%;
+    height: 20%;
+}
+}
